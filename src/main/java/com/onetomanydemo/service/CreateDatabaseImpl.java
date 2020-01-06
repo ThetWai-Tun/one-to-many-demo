@@ -17,7 +17,7 @@ public class CreateDatabaseImpl implements ICreateDatabase {
     @Override
     public void createDatabase() {
         Category c1 = new Category("Meat");
-        Category c2 = new Category("Fruits");git
+        Category c2 = new Category("Fruits");
 
         Products p1 = new Products("Chicken", 23, 10000);
         Products p2 = new Products("Fish", 22, 15000);
